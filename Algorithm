@@ -1,2 +1,6 @@
-1. Ask user for the selection of the shape
-2. 
+1. Start
+2. Create objects for the individual shapes
+3. Ask user which shape that they would like to calculate area + perimeter for
+4. Get user input for the information depending on the shape that they chose (e.g. length + width for rectangle)
+5. Calculate area and perimeter
+6. Print the area and perimeter
