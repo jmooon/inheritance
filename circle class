@@ -1,0 +1,25 @@
+package inheritance;
+ import java.util.Scanner;
+ /**
+ *
+ * @author jasmoon
+ */
+class Circle extends Shape{
+    double area, perim;
+    @Override
+    public void getData(){
+        System.out.println("radius: ");
+        Scanner s=new Scanner (System.in);
+        rad=s.nextDouble();
+    }
+    @Override
+    public void Display_Area(){
+        area=(pi*rad*rad);
+        System.out.println("Area is " + area);
+    }
+    @Override
+    public void Display_Perimeter(){
+        perim= 2*pi*rad ;
+        System.out.println("Perimeter is: " + perim);
+    }
+}
