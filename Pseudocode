@@ -1,1 +1,30 @@
+Create individual classes for all shapes
 
+Main class:
+Define variables (length, breadth, radius, a, b, c, side)
+Create empty methods for the subclasses to use
+  class to hold variables, class for area calculation, class for perimeter calculation
+  Ask user what shape they would like
+  Print calculations done from individual classes
+  
+Rectangle class
+  Ask for length and width
+  Calculate area (l*w)
+  Calculate perimeter (2*l+2*w)
+
+Triangle class
+  Ask for base and height
+  Ask for side a, b and c
+  Calculate area (b*h/2)
+  Calculate perimeter (a+b+c)
+
+Circle class
+  Ask for radius
+  Calculate area (pi*r*r)
+  Calculate perimeter (2*pi*r)
+  
+Parallelogram class
+  Ask for base and height
+  Ask for side length
+  Calculate area (b*h)
+  Calculate perimeter (2*(b+side))
