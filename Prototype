@@ -1,5 +1,5 @@
 (user input are examples)
-Choose a shape to calculate the area and perimeter of. 1 for triangle, 2 for rectangle, 3 for circle.
+Choose a shape to calculate the area and perimeter of. 1 for triangle, 2 for rectangle, 3 for circle, 4 for parallelogram
 
 (If the user chooses 1:)
 Enter the base and height:
@@ -25,3 +25,13 @@ Enter radius:
 4
 Area is 50.24
 Perimeter is: 25.12
+
+
+(If the user chooses 4:)
+Enter base and height:
+4
+6
+Enter side length:
+7
+Area is 24.0
+Perimeter is: 27.0
