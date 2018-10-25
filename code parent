@@ -1,0 +1,78 @@
+
+package inheritance;
+import java.util.Scanner;
+
+
+class Shape{
+    public double len, bre, rad, pi, a, b, c, side;
+    Shape(){
+        len=0;
+        bre=0;
+        rad=0;
+        pi=3.14;
+        a=0;
+        b=0;
+        c=0;
+        side=0;
+
+    }
+    public void getData(){
+        System.out.println("Enter the two values: ");
+        Scanner s = new Scanner(System.in);
+        len = s.nextDouble();
+        bre=s.nextDouble();
+    }
+    public void Display_Area(){
+        
+    }
+    public void Display_Perimeter(){
+        
+    }
+}
+
+public class Inheritance {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int ch;
+        Scanner s=new Scanner (System.in);
+        System.out.println("Press 1 for Triangle, 2 for rectangle, 3 for circle, 4 for parallelogram");
+        ch=s.nextInt();
+        switch(ch){
+            case 1: 
+                Triangle t=new Triangle();
+                t.getData();
+                t.Display_Area();
+                t.Display_Perimeter();
+                break;
+            case 2: 
+                Rectangle r=new Rectangle();
+                r.getData();
+                r.Display_Area();
+                r.Display_Perimeter();
+                break;
+            case 3: 
+                Circle q=new Circle();
+                q.getData();
+                q.Display_Area();
+                q.Display_Perimeter();
+                break;
+            case 4: 
+                Parallelogram p =new Parallelogram();
+                p.getData();
+                p.Display_Area();
+                p.Display_Perimeter();
+                break;
+            default: System.out.println("Try again.");
+                break;
+        }
+            
+    }
+    }
+}
+}
+
+
+
