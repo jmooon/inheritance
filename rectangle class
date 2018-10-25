@@ -1,0 +1,26 @@
+package inheritance;
+ import java.util.Scanner;
+ /**
+ *
+ * @author jasmoon
+ */
+class Rectangle extends Shape{
+    double area, perim;
+    @Override
+    public void getData(){
+        System.out.println("Enter length, then width: ");
+        Scanner s=new Scanner (System.in);
+        len=s.nextDouble();
+        bre=s.nextDouble();
+    }
+    @Override
+    public void Display_Area(){
+        area=len*bre;
+        System.out.println("Area is: " + area);
+    }
+    @Override
+    public void Display_Perimeter(){
+        perim=len*2+bre*2;
+        System.out.println("Perimeter is: " + perim);
+    }
+}
