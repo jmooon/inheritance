@@ -35,3 +35,6 @@ Enter side length:
 7
 Area is 24.0
 Perimeter is: 27.0
+
+(If the user puts in an invalid input (e.g. 5):)
+Try again.
