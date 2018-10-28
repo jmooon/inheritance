@@ -1,11 +1,20 @@
+
 package inheritance;
- import java.util.Scanner;
- /**
+
+import java.util.Scanner;
+
+/**
  *
  * @author jasmoon
  */
 class Parallelogram extends Shape{
-    double area, perim;
+    double side;
+
+    Parallelogram() {
+        this.side = 0;
+                
+        
+    }
     @Override
     public void getData(){
         System.out.println("Enter base, then height: ");
@@ -26,3 +35,4 @@ class Parallelogram extends Shape{
         System.out.println("Perimeter is: " + perim);
     }
 }
+
