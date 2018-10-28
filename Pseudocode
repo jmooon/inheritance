@@ -5,6 +5,7 @@ Define variables (length, breadth, radius, a, b, c, side)
 Create empty methods for the subclasses to use
   class to hold variables, class for area calculation, class for perimeter calculation
   Ask user what shape they would like
+    Use a while loop and boolean to make sure that the input is valid
   Print calculations done from individual classes
   
 Rectangle class
