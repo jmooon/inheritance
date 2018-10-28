@@ -11,34 +11,22 @@ import java.util.Scanner;
  *
  * @author jasmoon
  */
-class Triangle extends Shape{
-    double a, b, c;
-
-    Triangle() {
-        this.a = 0;
-        this.b = 0;
-        this.c = 0;
-    }
+class Rectangle extends Shape{
     @Override
     public void getData(){
-        System.out.println("Enter base, then height: ");
-        Scanner s=new Scanner(System.in);
-        len = s.nextDouble();
+        System.out.println("Enter length, then width: ");
+        Scanner s=new Scanner (System.in);
+        len=s.nextDouble();
         bre=s.nextDouble();
-        System.out.println("side a, side b and side c: ");
-        a = s.nextDouble();
-        b =s.nextDouble();
-        c=s.nextDouble();
-        
     }
     @Override
     public void Display_Area(){
-        area=(0.5*len*bre);
+        area=len*bre;
         System.out.println("Area is: " + area);
     }
     @Override
     public void Display_Perimeter(){
-        perim= a+b+c;
+        perim=len*2+bre*2;
         System.out.println("Perimeter is: " + perim);
     }
 }
